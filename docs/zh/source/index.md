@@ -38,7 +38,7 @@
 ---
 
 <video width="100%" controls>
-  <source src="./_static/videos/Real_demos/xlerobot030.mp4" type="video/mp4">
+  <source src="https://vector-wangel.github.io/XLeRobot-assets/videos/Real_demos/xlerobot030.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

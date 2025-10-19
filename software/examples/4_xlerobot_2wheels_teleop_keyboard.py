@@ -1,25 +1,24 @@
 # To Run on the host
 '''python
-PYTHONPATH=src python -m lerobot.robots.xlerobot.xlerobot_host --robot.id=my_xlerobot
+PYTHONPATH=src python -m lerobot.robots.xlerobot_2wheels.xlerobot_2wheels_host --robot.id=my_xlerobot_2wheels
 '''
 
 # To Run the teleop:
 '''python
-PYTHONPATH=src python -m examples.xlerobot.teleoperate_Keyboard
+PYTHONPATH=src python -m examples.xlerobot_2wheels.teleoperate_Keyboard
 '''
 
 import time
 import numpy as np
 import math
 
-from lerobot.robots.xlerobot import XLerobotConfig, XLerobot
-# from lerobot.robots.xlerobot import XLerobotClient, XLerobotClientConfig
+from lerobot.robots.xlerobot_2wheels import XLerobot2WheelsClient, XLerobot2WheelsClientConfig, XLerobot2WheelsConfig, XLerobot2Wheels
 from lerobot.utils.robot_utils import busy_wait
-from lerobot.utils.visualization_utils import init_rerun, log_rerun_data
+from lerobot.utils.visualization_utils import _init_rerun, log_rerun_data
 from lerobot.model.SO101Robot import SO101Kinematics
 from lerobot.teleoperators.keyboard.teleop_keyboard import KeyboardTeleop, KeyboardTeleopConfig
 
-# Keymaps (semantic action: key)
+# Keymaps (semantic action: key) - Updated for differential drive
 LEFT_KEYMAP = {
     'shoulder_pan+': 'q', 'shoulder_pan-': 'e',
     'wrist_roll+': 'r', 'wrist_roll-': 'f',
@@ -385,15 +384,15 @@ def main():
     FPS = 50
     # ip = "192.168.1.123"  # This is for zmq connection
     ip = "localhost"  # This is for local/wired connection
-    robot_name = "my_xlerobot_pc"
+    robot_name = "my_xlerobot_2wheels_pc"
 
     # For zmq connection
-    # robot_config = XLerobotClientConfig(remote_ip=ip, id=robot_name)
-    # robot = XLerobotClient(robot_config)    
+    # robot_config = XLerobot2WheelsClientConfig(remote_ip=ip, id=robot_name)
+    # robot = XLerobot2WheelsClient(robot_config)    
 
     # For local/wired connection
-    robot_config = XLerobotConfig()
-    robot = XLerobot(robot_config)
+    robot_config = XLerobot2WheelsConfig()
+    robot = XLerobot2Wheels(robot_config)
     
     try:
         robot.connect()
@@ -404,7 +403,7 @@ def main():
         print(robot)
         return
         
-    _init_rerun(session_name="xlerobot_teleop_v2")
+    _init_rerun(session_name="xlerobot_2wheels_teleop")
 
     #Init the keyboard instance
     keyboard_config = KeyboardTeleopConfig()
@@ -464,7 +463,7 @@ def main():
             right_action = right_arm.p_control_action(robot)
             head_action = head_control.p_control_action(robot)
 
-            # Base action
+            # Base action - differential drive only supports x and theta
             keyboard_keys = np.array(list(pressed_keys))
             base_action = robot._from_keyboard_to_base_action(keyboard_keys) or {}
 

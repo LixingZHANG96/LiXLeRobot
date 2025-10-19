@@ -14,7 +14,7 @@
 [DRAWER: Digital Reconstruction and Articulation with Environment Realism](https://xiahongchi.github.io/DRAWER/)
 
 <video width="100%" controls>
-  <source src="../_static/videos/Other_works/DRAWER.mp4" type="video/mp4">
+  <source src="https://vector-wangel.github.io/XLeRobot-assets/videos/Other_works/DRAWER.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -29,7 +29,7 @@
 [Introducing V-JEPA 2](https://ai.meta.com/vjepa/)
 
 <video width="100%" controls>
-  <source src="../_static/videos/Other_works/VJEPA2.mp4" type="video/mp4">
+  <source src="https://vector-wangel.github.io/XLeRobot-assets/videos/Other_works/VJEPA2.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -46,7 +46,7 @@
 [Caging in Time: A Framework for Robust Object Manipulation under Uncertainties and Limited Robot Perception](https://journals.sagepub.com/doi/pdf/10.1177/02783649251343926)
 
 <video width="100%" controls>
-  <source src="../_static/videos/Other_works/CIT.mp4" type="video/mp4">
+  <source src="https://vector-wangel.github.io/XLeRobot-assets/videos/Other_works/CIT.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -57,7 +57,7 @@
 [3D-ViTac: Learning Fine-Grained Manipulation with Visuo-Tactile Sensing](https://binghao-huang.github.io/3D-ViTac/)
 
 <video width="100%" controls>
-  <source src="../_static/videos/Other_works/3D-Vitac.mp4" type="video/mp4">
+  <source src="https://vector-wangel.github.io/XLeRobot-assets/videos/Other_works/3D-Vitac.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -68,7 +68,7 @@
 [eFlesh: Highly customizable Magnetic Touch Sensing using Cut-Cell Microstructures](https://e-flesh.com)
 
 <video width="100%" controls>
-  <source src="../_static/videos/Other_works/eflesh.mp4" type="video/mp4">
+  <source src="https://vector-wangel.github.io/XLeRobot-assets/videos/Other_works/eflesh.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -76,7 +76,7 @@
 
 [Belt–Augmented Compliant Hand](https://yuanshenli.com/bach.html)
 
-<img src="../_static/videos/Other_works/bach.gif" width="100%" style="max-width: 100%;" alt="BACH hand demo"/>
+<img src="https://vector-wangel.github.io/XLeRobot-assets/videos/Other_works/bach.gif" width="100%" style="max-width: 100%;" alt="BACH hand demo"/>
 
 ### 💻 Simulation
 

@@ -3,28 +3,28 @@
 ### Overall
 
 <video width="100%" controls>
-  <source src="../_static/videos/Real_demos/xlerobot030.mp4" type="video/mp4">
+  <source src="https://vector-wangel.github.io/XLeRobot-assets/videos/Real_demos/xlerobot030.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
 ### VR control
 
 <video width="100%" controls>
-  <source src="../_static/videos/Real_demos/XLeVR.mp4" type="video/mp4">
+  <source src="https://vector-wangel.github.io/XLeRobot-assets/videos/Real_demos/XLeVR.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
 ### Autonomous RL
 
 <video width="100%" controls>
-  <source src="../_static/videos/Real_demos/sim2real_2.mp4" type="video/mp4">
+  <source src="https://vector-wangel.github.io/XLeRobot-assets/videos/Real_demos/sim2real_2.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
 ### YOLO-based Object Tracking
 
 <video width="100%" controls>
-  <source src="../_static/videos/Real_demos/yolo.mp4" type="video/mp4">
+  <source src="https://vector-wangel.github.io/XLeRobot-assets/videos/Real_demos/yolo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -33,13 +33,13 @@
 #### VR Control in Sim
 
 <video width="100%" controls>
-  <source src="../_static/videos/Sim_demos/XLeRobot_0_2_3.mp4" type="video/mp4">
+  <source src="https://vector-wangel.github.io/XLeRobot-assets/videos/Sim_demos/XLeRobot_0_2_3.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
 #### Scenes Showcases
 <video width="100%" controls>
-  <source src="../_static/videos/Sim_demos/XLeRobot_0_1_5.mp4" type="video/mp4">
+  <source src="https://vector-wangel.github.io/XLeRobot-assets/videos/Sim_demos/XLeRobot_0_1_5.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -48,7 +48,7 @@
 ### Dynamics
 
 <video width="100%" controls>
-  <source src="../_static/videos/Real_demos/Dynamic.mp4" type="video/mp4">
+  <source src="https://vector-wangel.github.io/XLeRobot-assets/videos/Real_demos/Dynamic.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

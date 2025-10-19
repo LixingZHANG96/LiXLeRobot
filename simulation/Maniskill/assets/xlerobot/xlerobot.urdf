@@ -1264,7 +1264,7 @@
 
 
   <joint name="top_base_joint" type="fixed">
-    <origin rpy="0 0 3.14159" xyz="0 0 0.73"/>
+    <origin rpy="0 0 0" xyz="0 0 0.73"/>
     <parent link="base_link"/>
     <child link="top_base_link"/>
     <axis xyz="0 1 0"/>

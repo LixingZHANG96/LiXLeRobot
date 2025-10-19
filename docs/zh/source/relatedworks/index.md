@@ -13,7 +13,7 @@
 [DRAWER: 具有环境真实感的数字重建和关节运动](https://xiahongchi.github.io/DRAWER/)
 
 <video width="100%" controls>
-  <source src="../_static/videos/Other_works/DRAWER.mp4" type="video/mp4">
+  <source src="https://vector-wangel.github.io/XLeRobot-assets/videos/Other_works/DRAWER.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -28,7 +28,7 @@
 [介绍V-JEPA 2](https://ai.meta.com/vjepa/)
 
 <video width="100%" controls>
-  <source src="../_static/videos/Other_works/VJEPA2.mp4" type="video/mp4">
+  <source src="https://vector-wangel.github.io/XLeRobot-assets/videos/Other_works/VJEPA2.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -45,7 +45,7 @@
 [时间中的笼罩: 不确定性和有限机器人感知下的鲁棒物体操作框架](https://journals.sagepub.com/doi/pdf/10.1177/02783649251343926)
 
 <video width="100%" controls>
-  <source src="../_static/videos/Other_works/CIT.mp4" type="video/mp4">
+  <source src="https://vector-wangel.github.io/XLeRobot-assets/videos/Other_works/CIT.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -56,7 +56,7 @@
 [3D-ViTac: 通过视觉-触觉感知学习精细操作](https://binghao-huang.github.io/3D-ViTac/)
 
 <video width="100%" controls>
-  <source src="../_static/videos/Other_works/3D-Vitac.mp4" type="video/mp4">
+  <source src="https://vector-wangel.github.io/XLeRobot-assets/videos/Other_works/3D-Vitac.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -65,7 +65,7 @@
 [eFlesh: 使用切割单元微结构的高度可定制磁性触觉感知](https://e-flesh.com)
 
 <video width="100%" controls>
-  <source src="../_static/videos/Other_works/eflesh.mp4" type="video/mp4">
+  <source src="https://vector-wangel.github.io/XLeRobot-assets/videos/Other_works/eflesh.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -73,7 +73,7 @@
 
 [带式增强柔顺手](https://yuanshenli.com/bach.html)
 
-<img src="../_static/videos/Other_works/bach.gif" width="100%" style="max-width: 100%;" alt="BACH hand demo"/>
+<img src="https://vector-wangel.github.io/XLeRobot-assets/videos/Other_works/bach.gif" width="100%" style="max-width: 100%;" alt="BACH hand demo"/>
 
 ### 💻 仿真
 

@@ -11,14 +11,14 @@
 ##### [👀 VR控制](getting_started/vr_sim)
 
 <video width="100%" style="max-width: 100%;" controls>
-  <source src="../_static/videos/Sim_demos/XLeRobot_0_2_3.mp4" type="video/mp4">
+  <source src="https://vector-wangel.github.io/XLeRobot-assets/videos/Sim_demos/XLeRobot_0_2_3.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
 ##### [🔩 更多场景](getting_started/simdemos)
 
 <video width="100%" style="max-width: 100%;" controls>
-  <source src="../_static/videos/Sim_demos/XLeRobot_0_1_5.mp4" type="video/mp4">
+  <source src="https://vector-wangel.github.io/XLeRobot-assets/videos/Sim_demos/XLeRobot_0_1_5.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
