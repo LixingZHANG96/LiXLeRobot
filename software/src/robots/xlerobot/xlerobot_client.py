@@ -122,7 +122,7 @@ class XLerobotClient(Robot):
 
         if self._is_connected:
             raise DeviceAlreadyConnectedError(
-                "LeKiwi Daemon is already connected. Do not run `robot.connect()` twice."
+                "XLerobot Daemon is already connected. Do not run `robot.connect()` twice."
             )
 
         self.zmq_context = zmq.Context()
@@ -262,7 +262,7 @@ class XLerobotClient(Robot):
         and a camera frame. Receives over ZMQ, translate to body-frame vel
         """
         if not self._is_connected:
-            raise DeviceNotConnectedError("LeKiwiClient is not connected. You need to run `robot.connect()`.")
+            raise DeviceNotConnectedError("XLerobotClient is not connected. You need to run `robot.connect()`.")
 
         frames, obs_dict = self._get_data()
 
@@ -314,7 +314,7 @@ class XLerobotClient(Robot):
         pass
 
     def send_action(self, action: dict[str, Any]) -> dict[str, Any]:
-        """Command lekiwi to move to a target joint configuration. Translates to motor space + sends over ZMQ
+        """Command XLerobot to move to a target joint configuration. Translates to motor space + sends over ZMQ
 
         Args:
             action (np.ndarray): array containing the goal positions for the motors.
@@ -344,7 +344,7 @@ class XLerobotClient(Robot):
 
         if not self._is_connected:
             raise DeviceNotConnectedError(
-                "LeKiwi is not connected. You need to run `robot.connect()` before disconnecting."
+                "XLerobot is not connected. You need to run `robot.connect()` before disconnecting."
             )
         self.zmq_observation_socket.close()
         self.zmq_cmd_socket.close()
